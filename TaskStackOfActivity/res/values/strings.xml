@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">TaskStackOfActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="firstTextView">first avtivity</string>
+    <string name="firstButton">click to second acticity</string>
+    <string name="secondTextView">second avtivity</string>
+    <string name="secondButton">click to third acticity</string>
+    <string name="thirdTextView">third avtivity</string>
+    <string name="thirdButton">click to send SMS</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_third">ThirdActivity</string>
+    <string name="myTel">13760865491</string>
+
+</resources>

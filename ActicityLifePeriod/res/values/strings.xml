@@ -8,5 +8,8 @@
     <string name="firstTextView">This is the first activity.</string>
 	<string name="secondTextView">This is the second activity.</string>
 	<string name="myButton">click me</string>
+	<string name="title_activity_dialog">dialog</string>
+	<string name="dialogTextView">This is the dialog activity.</string>
+	<string name="dialogButton">click to first activity</string>
 
 </resources>

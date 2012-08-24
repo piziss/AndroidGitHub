@@ -23,7 +23,8 @@ public class FirstActivity extends Activity {
         button.setOnClickListener(new OnClickListener() {
 
 			public void onClick(View arg0) {
-				FirstActivity.this.startActivity(new Intent().setClass(FirstActivity.this, SecondActivity.class));
+//				FirstActivity.this.startActivity(new Intent().setClass(FirstActivity.this, SecondActivity.class));
+				FirstActivity.this.startActivity(new Intent().setClass(FirstActivity.this, DialogActivity.class));
 			}});
     }
     
