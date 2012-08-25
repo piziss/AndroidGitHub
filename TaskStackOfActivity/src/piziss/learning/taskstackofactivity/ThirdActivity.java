@@ -22,7 +22,9 @@ public class ThirdActivity extends Activity {
         button.setOnClickListener(new OnClickListener(){
 
 			public void onClick(View arg0) {
-				Uri uri = Uri.parse("smsto:13760865491");// how to use the msg in strings.xml
+				// how to use the msg in strings.xml
+				// use Activity.getString(int id) to get
+				Uri uri = Uri.parse("smsto:" + getString(R.string.myTel));
 				Intent intent = new Intent(Intent.ACTION_SENDTO, uri);
 				intent.putExtra("sms_body", "the default SMS text");
 				ThirdActivity.this.startActivity(intent);
