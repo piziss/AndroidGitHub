@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/firstTextViewLinear"
+        android:gravity="center_horizontal"
+        android:text="the first line"
+        android:textSize="35pt"
+        android:background="#aa0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingTop="20dip"
+        android:paddingRight="30dip"
+        android:paddingBottom="40dip"
+        android:layout_weight="1"
+        android:singleLine="true"/>
+    
+    <TextView 
+        android:id="@+id/secondTextViewLinear"
+        android:gravity="center_vertical"
+        android:text="the second line"
+        android:textSize="15pt"
+        android:background="#00aa00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:layout_weight="1"
+        android:singleLine="true"/>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="0">"
+    
+    <TableRow>
+        <TextView android:text="row 0 column 0" android:background="#aa0000"/>
+        <TextView android:text="row 0 column 1" android:background="#00aa00"/>
+        <TextView android:text="row 0 column 2" android:background="#0000aa"/>
+    </TableRow>
+    
+     <TableRow>
+        <TextView android:text="row 1 column 0" android:background="#000000"/>
+        <TextView android:text="row 1 column 1" android:background="#aaaaaa"/>
+    </TableRow>
+    
+</TableLayout>
