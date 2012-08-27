@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="5dip">
+    
+    <TextView 
+        android:id="@+id/textViewRelative"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="text view"/>
+    
+    <EditText 
+        android:id="@+id/editTextRelative"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewRelative"/>
+    
+    <Button 
+        android:id="@+id/okButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/editTextRelative"
+        android:paddingLeft="5dip"
+        android:text="Ok"/>
+    
+    <Button 
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/okButton"
+        android:layout_alignTop="@id/okButton"
+        android:text="Cancel"/>
+    
+</RelativeLayout>

@@ -25,10 +25,32 @@
         <activity 
             android:name=".TableLayout"
             android:label="@string/title_activity_table_layout">
+            <!--  
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            -->
+        </activity>
+        
+        <activity 
+            android:name=".NestedLayout"
+            android:label="@string/title_activity_nested_layout">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name=".RelativeLayout"
+            android:label="@string/title_activity_relative_layout">
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
         </activity>
     </application>
 

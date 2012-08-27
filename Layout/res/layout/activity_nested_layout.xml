@@ -1,0 +1,155 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="4dip" >
+
+        <TextView
+            android:id="@+id/firstTextViewFirstLinearNested"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#aa0000"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="red" />
+
+        <TextView
+            android:id="@+id/secondTextViewFirstLinearNested"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#00aa00"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="green" />
+
+        <TextView
+            android:id="@+id/thirdTextViewFirstLinearNested"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#0000aa"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="blue" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="4dip" >
+
+        <TextView
+            android:id="@+id/firstTextViewSecondLinearNested"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#aa0000"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:text="red" />
+
+        <TextView
+            android:id="@+id/secondTextViewSecondLinearNested"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00aa00"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:text="green" />
+
+        <TextView
+            android:id="@+id/thirdTextViewSecondtLinearNested"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#0000aa"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:text="blue" />
+    </LinearLayout>
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:padding="4dip"
+        android:stretchColumns="0" >
+
+        <TableRow>
+
+            <TextView
+                android:background="#aa0000"
+                android:text="row 0 column 0" />
+
+            <TextView
+                android:background="#00aa00"
+                android:text="row 0 column 1" />
+
+            <TextView
+                android:background="#0000aa"
+                android:text="row 0 column 2" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="#000000"
+                android:text="row 1 column 0" />
+
+            <TextView
+                android:background="#aaaaaa"
+                android:text="row 1 column 1" 
+                android:layout_span="2"/>
+        </TableRow>
+    </TableLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textViewRelative"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="text view" />
+
+        <EditText
+            android:id="@+id/editTextRelative"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewRelative" />
+
+        <Button
+            android:id="@+id/okButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/editTextRelative"
+            android:paddingLeft="5dip"
+            android:text="Ok" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/okButton"
+            android:layout_toLeftOf="@id/okButton"
+            android:text="Cancel" />
+    </RelativeLayout>
+
+</LinearLayout>
