@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textView" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/maleRadioButton"
+            android:text="@string/male" />
+
+        <RadioButton
+            android:id="@+id/femaleRadioButton"
+            android:text="@string/female" />
+
+        <RadioButton
+            android:id="@+id/heheRadioButton"
+            android:text="@string/hehe" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/nextTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroup"
+        android:text="@string/nextTextView" />
+
+    <CheckBox
+        android:id="@+id/swimCheckBox"
+        android:layout_below="@id/nextTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/swimCheckBox" />
+
+    <CheckBox
+        android:id="@+id/readCheckBox"
+        android:layout_below="@id/swimCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/readCheckBox" />
+
+</RelativeLayout>

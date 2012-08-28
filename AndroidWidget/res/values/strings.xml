@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">AndroidWidget</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_radio_and_checkbox">RadioAndCheckboxActivity</string>
+    <string name="textView">select your sex</string>
+    <string name="male">boy</string>
+    <string name="female">girl</string>
+    <string name="hehe">hehe</string>
+    <string name="nextTextView">select your hobby</string>
+    <string name="swimCheckBox">swim</string>
+    <string name="readCheckBox">read</string>
+
+</resources>
