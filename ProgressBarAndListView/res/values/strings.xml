@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="app_name">ProgressBarAndListView</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_progress_bar">ProgressBar</string>
+    <string name="progressBarTitle">hello ProgressBar</string>
+    <string name="progressBarButton">ProgressBar</string>
+    <string name="listViewButton">ListView</string>
+    <string name="title_activity_list_view">ListView</string>
+    <string-array name="listViewTitle">
+        <item>ColumnOne</item>
+        <item>ColumnTwo</item>
+        <item>ColumnThree</item>
+    </string-array>
+    <string-array name="listViewValueRowOne">
+        <item>ColumnOneRowOne</item>
+        <item>ColumnTwoRowOne</item>
+        <item>ColumnThreeRowOne</item>
+    </string-array>
+    <string-array name="listViewValueRowTwo">
+        <item>ColumnOneRowTwo</item>
+        <item>ColumnTwoRowTwo</item>
+        <item>ColumnThreeRowTwo</item>
+    </string-array>
+    <string-array name="listViewValueRowThree">
+        <item>ColumnOneRowThree</item>
+        <item>ColumnTwoRowThree</item>
+        <item>ColumnThreeRowThree</item>
+    </string-array>
+    
+</resources>
